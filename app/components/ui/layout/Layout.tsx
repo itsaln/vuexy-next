@@ -9,7 +9,7 @@ const Layout: FC<PropsWithChildren<IMeta>> = ({ children, ...meta }) => {
 	return (
 		<>
 			<Meta {...meta} />
-			<section className={styles.wrapper}>{children}</section>
+			<div className={styles.wrapper}>{children}</div>
 		</>
 	)
 }
